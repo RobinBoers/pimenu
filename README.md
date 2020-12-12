@@ -9,6 +9,10 @@ The design is inspired by Windows 8's Metro design. Tiles are configured in
 ```pimenu.yaml```, they can either open new pages of tiles or execute the action
 script ```pimenu.sh``` to execute arbitrary tasks.
 
+To install, just clone this repository: 
+    
+    git clone https://github.com/RobinBoers/pimenu
+
 On the Raspberry, install python-yaml:
 
     sudo apt-get install python-yaml
@@ -21,6 +25,8 @@ Copy the example configs before running the script:
 The app can be started in fullscreen by passing ```fs``` as first parameter.
 
     ./pimenu.py fs
+    
+Robin Boers changed the resolution to match the resolution of the offcial Raspberry Pi touchscreen.
 
 ![Screenshot](screenshot.png)
 
