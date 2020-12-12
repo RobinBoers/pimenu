@@ -3,7 +3,7 @@ PiMenu
 
 This is a simple fullscreen menu system written in Python TKInter. It has been
 developed with a Raspberry Pi Touchscreen in mind and is optimized for small
-screens (320x240 is assumed).
+screens (800x480 is assumed).
 
 The design is inspired by Windows 8's Metro design. Tiles are configured in
 ```pimenu.yaml```, they can either open new pages of tiles or execute the action
