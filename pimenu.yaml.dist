@@ -6,98 +6,92 @@
 #
 ---
   - 
-    name: "andi"
-    label: "Andi"
+    name: "programming"
+    label: "Programming"
     color: "#603cba"
-    icon: "fish"
+    icon: "symbol.braces"
     items: 
       - 
-        name : "insurance"
-        label: "Insurance"
+        name : "idle &"
+        label: "Python 2"
         color: "#603cba"
-        icon : "shield"
+        icon : "python"
       - 
-        name : "invoice"
-        label: "Invoices"
+        name : "idle3 &"
+        label: "Python 3"
         color: "#603cba"
-        icon : "invoice"
+        icon : "python"
       - 
-        name : "banking"
-        label: "Banking"
+        name : "sonic-pi &"
+        label: "Sonic Pi"
         color: "#603cba"
-        icon : "currency.dollar"
+        icon : "sonic-pi"
+  - 
+    name: "tools"
+    label: "Tools"
+    color: "#603cba"
+    icon: "tux"
+    items: 
+      - 
+        name : "leafpad &"
+        label: "Text Editor"
+        color: "#603cba"
+        icon : "leafpad"
+      - 
+        name : "x-terminal-emulator &"
+        label: "Terminal"
+        color: "#603cba"
+        icon : "lxterminal"
+      - 
+        name : "firefox-esr &"
+        label: "Firefox"
+        color: "#603cba"
+        icon : "firefox-alt"
       -
-        name : "other"
-        label: "Other"
+        name : "pcmanfm &"
+        label: "Files"
         color: "#603cba"
         icon : "cabinet.files.variant"
   - 
-    name: "kaddi"
-    label: "Kaddi"
+    name: "settings"
+    label: "Settings"
     color: "#9f00a7"
-    icon: "bunny"
+    icon: "save"
     items:
       -
-        name : "versicherung"
-        label: "Versicherung"
-        icon : "shield"
+        name : "appearance"
+        label: "Appearance"
+        icon : "quill"
         items:
           -
-            name : "leben"
-            label: "Leben"
-            icon : "grave"
+            name : "lxappearance &"
+            label: "Themes"
+            icon : "lxappearance"
           -
-            name : "rente"
-            label: "Rente"
-            icon : "marvel.shield"
+            name : "obconf &"
+            label: "Windows"
+            icon : "window"
           -
-            name : "haftpflicht"
-            label: "Haftpflicht"
-            icon : "shield.alert"
+            name : "obmenu &"
+            label: "Menu"
+            icon : "shield"
           -
-            name : "unfall"
-            label: "Unfall"
-            icon : "ambulance"
+            name : "leafpad /home/pi/.config/openbox/autostart.sh &"
+            label: "Autostart"
+            icon : "leafpad"
           -
-            name : "gesundheit"
-            label: "Kranken"
-            icon : "medical"
-          -
-            name : "sozial"
-            label: "Sozial"
-            icon : "share.open"
-          -
-            name : "hausrat"
-            label: "Hausrat"
-            icon : "home"
+            name : "pcmanfm --desktop-pref &"
+            label: "Desktop"
+            icon : "window"
       -
-        name : "gehalt"
-        label: "Gehalt"
-        icon : "money"
+        name : "xfce4-notifyd-config &"
+        label: "Notifications"
+        icon : "notifications"
       -
-        name : "wisag"
-        label: "Wisag"
-        icon : "clothes.tie"
+        name : "pavucontrol &"
+        label: "Volume"
+        icon : "sound.3"
       -
-        name : "bhw"
-        label: "BHW"
-      -
-        name : "rechnungen"
-        label: "Rechnungen"
-        icon : "invoice"
-      -
-        name : "wohnung"
-        label: "Wohnung"
-        icon : "home"
-      -
-        name : "steuer"
-        label: "Eink.st."
-        icon : "marvel.shield"
-      -
-        name : "bank"
-        label: "Bank"
-        icon : "currency.dollar"
-      -
-        name : "sonstiges"
-        label: "Sonstiges"
+        name : "sudo pcmanfm"
+        label: "Root access"
         icon : "cabinet.files.variant"
