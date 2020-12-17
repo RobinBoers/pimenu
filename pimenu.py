@@ -119,7 +119,7 @@ class PiMenu(Frame):
 
         # display all given buttons
         for item in items:
-            act = upper + [item['name']]
+            act = [item['name']]
 
             if 'icon' in item:
                 image = self.get_icon(item['icon'])
